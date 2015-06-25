@@ -1,0 +1,48 @@
+
+<!--Container-->
+<div class="container">
+  <div class="tm-logo">
+    <div class="centerContent">&nbsp</div>
+  </div>
+  <div class="signIncontainer">
+    <form class="front box" id="loginForm">
+      <h2>Sign In</h2>
+      <div id="login-alert" class="alert alert-danger" style="display:none;">
+        <span type="button" class="close-login-alert glyphicon glyphicon-remove-circle" data-dismiss="alert">
+        </span>
+        <strong>Error!</strong> Username and/or Password don't match our records
+      </div>
+      <div id="empty-login-alert" class="alert alert-danger" style="display:none;">
+          <span type="button" class="close-login-alert glyphicon glyphicon-remove-circle" data-dismiss="alert">
+          </span>
+          <strong>Error!</strong> Username and/or Password cannot be empty.
+      </div>
+      <div class="form-group">
+        <label>Username</label>
+        <input type="email" id="txtUsername" class="formControl" autofocus>
+      </div>
+      <div class="form-group">
+        <label>Password</label><!-- <label class="pull-right forgotPassword"><a>forgot?</a></label> -->
+        <input type="password" id="txtPassword" class="formControl">
+      </div>
+      <div class="signInButton clearfix">
+        <div class="signInControl pull-left">
+          <input id ="btnSubmit" type="button" class="primary btn btn-loader gif-loading-small" value="Sign In">
+        </div>
+        <div class="rememberMeControl pull-right">
+          <label for="rememberMe">
+            <input class="pull-left" type="checkbox" id="rememberMe" name="rememberMe">
+            <label for="rememberMe" class="rememberMe"></label>
+            <span class="chk-box">Remember me</span>
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="tm-footer">
+    <div class="centerContent">
+      <div class="sideNavFooter">
+      </div>
+    </div>
+  </div>
+</div>
